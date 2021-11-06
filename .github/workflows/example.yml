@@ -31,4 +31,4 @@ jobs:
         elastic_host: "${{ secrets.ELASTIC_HOST }}"
         elastic_api_key_id: "${{ secrets.ELASTIC_KEY_ID }}"
         elastic_api_key: "${{ secrets.ELASTIC_API_KEY }}"
-        elastic_index: "logs"
+        elastic_index: "ci-cd"
