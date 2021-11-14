@@ -22,7 +22,7 @@ jobs:
     if: always()
     steps:
     - name: Upload GitHub Action workflows logs to elastic
-      uses: shahargl/upload-github-workflow-logs-to-elastic@1.0.12
+      uses: betawins/upload-github-workflow-logs-to-elastic
       with:
         github_token: "${{ secrets.GITHUB }}"
         github_org: "betawins"
